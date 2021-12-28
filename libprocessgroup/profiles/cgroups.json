@@ -28,6 +28,21 @@
       "UID": "root",
       "GID": "system",
       "Optional": true
+    },
+    {
+      "Controller": "schedtune",
+      "Path": "/dev/stune",
+      "Mode": "0755",
+      "UID": "system",
+      "GID": "system",
+      "Optional": true
+    },
+    {
+      "Controller": "freezer",
+      "Path": "/dev/freezer",
+      "Mode": "0755",
+      "UID": "system",
+      "GID": "system"
     }
   ],
   "Cgroups2": {
