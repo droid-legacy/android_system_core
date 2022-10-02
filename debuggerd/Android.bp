@@ -318,11 +318,6 @@ cc_library_static {
         debuggable: {
             cflags: ["-DROOT_POSSIBLE"],
         },
-
-        malloc_low_memory: {
-            cflags: ["-UUSE_SCUDO"],
-            exclude_static_libs: ["libscudo"],
-        },
     },
     apex_available: [
         "com.android.runtime",
